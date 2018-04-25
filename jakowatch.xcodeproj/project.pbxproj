@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472A88532090431500266AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A88522090431500266AC6 /* AppDelegate.swift */; };
+		472A88552090431500266AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A88542090431500266AC6 /* ViewController.swift */; };
+		472A88582090431500266AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472A88562090431500266AC6 /* Main.storyboard */; };
+		472A885A2090431D00266AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472A88592090431D00266AC6 /* Assets.xcassets */; };
+		472A885D2090431D00266AC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472A885B2090431D00266AC6 /* LaunchScreen.storyboard */; };
+		472A88682090431D00266AC6 /* jakowatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A88672090431D00266AC6 /* jakowatchTests.swift */; };
+		472A88732090431D00266AC6 /* jakowatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A88722090431D00266AC6 /* jakowatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		472A88642090431D00266AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 472A88472090431500266AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472A884E2090431500266AC6;
+			remoteInfo = jakowatch;
+		};
+		472A886F2090431D00266AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 472A88472090431500266AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472A884E2090431500266AC6;
+			remoteInfo = jakowatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		472A884F2090431500266AC6 /* jakowatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jakowatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		472A88522090431500266AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		472A88542090431500266AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		472A88572090431500266AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472A88592090431D00266AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472A885C2090431D00266AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472A885E2090431D00266AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472A88632090431D00266AC6 /* jakowatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jakowatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		472A88672090431D00266AC6 /* jakowatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jakowatchTests.swift; sourceTree = "<group>"; };
+		472A88692090431D00266AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472A886E2090431D00266AC6 /* jakowatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jakowatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		472A88722090431D00266AC6 /* jakowatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jakowatchUITests.swift; sourceTree = "<group>"; };
+		472A88742090431D00266AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		472A884C2090431500266AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472A88602090431D00266AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472A886B2090431D00266AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472A88462090431500266AC6 = {
+			isa = PBXGroup;
+			children = (
+				472A88512090431500266AC6 /* jakowatch */,
+				472A88662090431D00266AC6 /* jakowatchTests */,
+				472A88712090431D00266AC6 /* jakowatchUITests */,
+				472A88502090431500266AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		472A88502090431500266AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				472A884F2090431500266AC6 /* jakowatch.app */,
+				472A88632090431D00266AC6 /* jakowatchTests.xctest */,
+				472A886E2090431D00266AC6 /* jakowatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		472A88512090431500266AC6 /* jakowatch */ = {
+			isa = PBXGroup;
+			children = (
+				472A88522090431500266AC6 /* AppDelegate.swift */,
+				472A88542090431500266AC6 /* ViewController.swift */,
+				472A88562090431500266AC6 /* Main.storyboard */,
+				472A88592090431D00266AC6 /* Assets.xcassets */,
+				472A885B2090431D00266AC6 /* LaunchScreen.storyboard */,
+				472A885E2090431D00266AC6 /* Info.plist */,
+			);
+			path = jakowatch;
+			sourceTree = "<group>";
+		};
+		472A88662090431D00266AC6 /* jakowatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				472A88672090431D00266AC6 /* jakowatchTests.swift */,
+				472A88692090431D00266AC6 /* Info.plist */,
+			);
+			path = jakowatchTests;
+			sourceTree = "<group>";
+		};
+		472A88712090431D00266AC6 /* jakowatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				472A88722090431D00266AC6 /* jakowatchUITests.swift */,
+				472A88742090431D00266AC6 /* Info.plist */,
+			);
+			path = jakowatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		472A884E2090431500266AC6 /* jakowatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472A88772090431D00266AC6 /* Build configuration list for PBXNativeTarget "jakowatch" */;
+			buildPhases = (
+				472A884B2090431500266AC6 /* Sources */,
+				472A884C2090431500266AC6 /* Frameworks */,
+				472A884D2090431500266AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jakowatch;
+			productName = jakowatch;
+			productReference = 472A884F2090431500266AC6 /* jakowatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472A88622090431D00266AC6 /* jakowatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472A887A2090431D00266AC6 /* Build configuration list for PBXNativeTarget "jakowatchTests" */;
+			buildPhases = (
+				472A885F2090431D00266AC6 /* Sources */,
+				472A88602090431D00266AC6 /* Frameworks */,
+				472A88612090431D00266AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472A88652090431D00266AC6 /* PBXTargetDependency */,
+			);
+			name = jakowatchTests;
+			productName = jakowatchTests;
+			productReference = 472A88632090431D00266AC6 /* jakowatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		472A886D2090431D00266AC6 /* jakowatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472A887D2090431D00266AC6 /* Build configuration list for PBXNativeTarget "jakowatchUITests" */;
+			buildPhases = (
+				472A886A2090431D00266AC6 /* Sources */,
+				472A886B2090431D00266AC6 /* Frameworks */,
+				472A886C2090431D00266AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472A88702090431D00266AC6 /* PBXTargetDependency */,
+			);
+			name = jakowatchUITests;
+			productName = jakowatchUITests;
+			productReference = 472A886E2090431D00266AC6 /* jakowatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		472A88472090431500266AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = jako;
+				TargetAttributes = {
+					472A884E2090431500266AC6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					472A88622090431D00266AC6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 472A884E2090431500266AC6;
+					};
+					472A886D2090431D00266AC6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 472A884E2090431500266AC6;
+					};
+				};
+			};
+			buildConfigurationList = 472A884A2090431500266AC6 /* Build configuration list for PBXProject "jakowatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 472A88462090431500266AC6;
+			productRefGroup = 472A88502090431500266AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				472A884E2090431500266AC6 /* jakowatch */,
+				472A88622090431D00266AC6 /* jakowatchTests */,
+				472A886D2090431D00266AC6 /* jakowatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		472A884D2090431500266AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472A885D2090431D00266AC6 /* LaunchScreen.storyboard in Resources */,
+				472A885A2090431D00266AC6 /* Assets.xcassets in Resources */,
+				472A88582090431500266AC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472A88612090431D00266AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472A886C2090431D00266AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		472A884B2090431500266AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472A88552090431500266AC6 /* ViewController.swift in Sources */,
+				472A88532090431500266AC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472A885F2090431D00266AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472A88682090431D00266AC6 /* jakowatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472A886A2090431D00266AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472A88732090431D00266AC6 /* jakowatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		472A88652090431D00266AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472A884E2090431500266AC6 /* jakowatch */;
+			targetProxy = 472A88642090431D00266AC6 /* PBXContainerItemProxy */;
+		};
+		472A88702090431D00266AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472A884E2090431500266AC6 /* jakowatch */;
+			targetProxy = 472A886F2090431D00266AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		472A88562090431500266AC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472A88572090431500266AC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472A885B2090431D00266AC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472A885C2090431D00266AC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		472A88752090431D00266AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		472A88762090431D00266AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		472A88782090431D00266AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jakowatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jako.test.jakowatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472A88792090431D00266AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jakowatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jako.test.jakowatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		472A887B2090431D00266AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jakowatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jako.test.jakowatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jakowatch.app/jakowatch";
+			};
+			name = Debug;
+		};
+		472A887C2090431D00266AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jakowatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jako.test.jakowatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jakowatch.app/jakowatch";
+			};
+			name = Release;
+		};
+		472A887E2090431D00266AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jakowatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jako.test.jakowatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jakowatch;
+			};
+			name = Debug;
+		};
+		472A887F2090431D00266AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jakowatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jako.test.jakowatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jakowatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		472A884A2090431500266AC6 /* Build configuration list for PBXProject "jakowatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472A88752090431D00266AC6 /* Debug */,
+				472A88762090431D00266AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472A88772090431D00266AC6 /* Build configuration list for PBXNativeTarget "jakowatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472A88782090431D00266AC6 /* Debug */,
+				472A88792090431D00266AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472A887A2090431D00266AC6 /* Build configuration list for PBXNativeTarget "jakowatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472A887B2090431D00266AC6 /* Debug */,
+				472A887C2090431D00266AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472A887D2090431D00266AC6 /* Build configuration list for PBXNativeTarget "jakowatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472A887E2090431D00266AC6 /* Debug */,
+				472A887F2090431D00266AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 472A88472090431500266AC6 /* Project object */;
+}
