@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,75 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="jakowatch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dch-ma-LZc">
+                                <rect key="frame" x="63" y="170" width="249.5" height="75"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Nlu-9C-lQH">
+                                <rect key="frame" x="79" y="275" width="217" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ap-hw-sc1">
+                                        <rect key="frame" x="0.0" y="0.0" width="39" height="30"/>
+                                        <state key="normal" title="Start"/>
+                                        <connections>
+                                            <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lMr-F0-z0a"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf0-0A-89W">
+                                        <rect key="frame" x="89" y="0.0" width="39" height="30"/>
+                                        <state key="normal" title="Stop"/>
+                                        <connections>
+                                            <action selector="stopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtm-DN-CeY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7T-iX-Iaa">
+                                        <rect key="frame" x="178" y="0.0" width="39" height="30"/>
+                                        <state key="normal" title="Reset"/>
+                                        <connections>
+                                            <action selector="resetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EJ4-hA-owi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Cf0-0A-89W" firstAttribute="centerX" secondItem="Nlu-9C-lQH" secondAttribute="centerX" id="5fS-d2-Dec"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YpY5_Hmq_400x400.png" translatesAutoresizingMaskIntoConstraints="NO" id="uqV-Jg-gPg">
+                                <rect key="frame" x="-12.5" y="365" width="400" height="400"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nlu-9C-lQH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7tQ-39-Z53"/>
+                            <constraint firstItem="uqV-Jg-gPg" firstAttribute="top" secondItem="Nlu-9C-lQH" secondAttribute="bottom" constant="60" id="Xcl-Zv-r9k"/>
+                            <constraint firstItem="uqV-Jg-gPg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cK6-7s-LkZ"/>
+                            <constraint firstItem="uqV-Jg-gPg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJQ-um-69Y"/>
+                            <constraint firstItem="dch-ma-LZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="k5y-a1-CC2"/>
+                            <constraint firstItem="dch-ma-LZc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ox6-Ix-2kY"/>
+                            <constraint firstItem="Nlu-9C-lQH" firstAttribute="top" secondItem="dch-ma-LZc" secondAttribute="bottom" constant="30" id="xZ8-LV-yyE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="resetButton" destination="U7T-iX-Iaa" id="JCy-yq-XEJ"/>
+                        <outlet property="startButton" destination="7ap-hw-sc1" id="zcB-Xu-j9l"/>
+                        <outlet property="stopButton" destination="Cf0-0A-89W" id="mC6-Zj-Ddt"/>
+                        <outlet property="timerLabel" destination="dch-ma-LZc" id="Fcl-RJ-EgI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="YpY5_Hmq_400x400.png" width="400" height="400"/>
+    </resources>
 </document>
